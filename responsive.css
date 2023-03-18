@@ -1,0 +1,67 @@
+/* ======================================== RESPONSIVE TABLET ================================ */
+@media (max-width: 1000px ){
+    /* ========================== navbar ===================== */
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul {
+        display: flex;
+        width: 57%;
+    }
+    .fa-bars {
+    display: none;
+    }
+}
+/* ======================================== RESPONSIVE MOBILE ================================ */
+@media (max-width:670px) {
+    /* =================== NAVBAR ================================ */
+    .logo {
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        margin: auto 10%;
+        text-align: center;   
+    }
+
+    .fa-bars {
+        margin : auto 5%;
+        float : right;
+        font-size : 25px;
+        color : white;
+        cursor: pointer;
+        display: block;
+      }
+      nav ul {
+        display: none;
+      }
+      /* =================== HERO ================================ */
+      .hero h1 {
+        font-size: 40px;
+      }
+      .hero h2 {
+        font-size: 20px;
+      }
+      /* =================== PROYEK ================================ */
+      .proyek-flex {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .proyek-img {
+        width: 80%;
+    }
+    /* =================== FOOTER ================================ */
+    footer {
+        flex-direction: column;
+    }
+    footer .logo {
+        margin-top: 10%;
+    }
+    footer ul {
+        width: 80%;
+        margin: auto ;
+    }
+}
